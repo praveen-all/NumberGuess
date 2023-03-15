@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>guess the number between 1 to 1000</h1>
+        <button class="btn-again" id="again">Again</button>
+        <div class="container">?</div>
+    </header>
+
+    <!-- modal -->
+     <!-- modal back -->
+     <div class="overlap hidden" id="overlap"></div>
+    <div class="show_model hidden">
+        <button class="close">
+            <i class="ri-close-line"></i></button>
+            <div class="circle"></div>
+        <div class="box">
+        
+           
+          <h1>🥳Congratulations🥳</h1>
+          <p class="style" style="color: wheat;"> Score: <span class="score">0</span></p>
+          
+        </div>
+       
+    </div>
+   
+    <main>
+        <section class="main1">
+            <p>Test here</p>
+            <input type="number" name="" id="input" placeholder="check">
+            <button class="btn-again le" id="check">check</button>
+            
+        </section>
+        <section class="main2">
+            <p class="style" id="response">guessing started🤯🤯</p>
+           <p class="style"> Score: <span class="score">0</span></p>
+            <p class="style">High Score: <span class="high">0</span></p>
+
+        </section>
+    </main>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
